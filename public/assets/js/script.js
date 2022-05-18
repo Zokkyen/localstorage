@@ -41,7 +41,7 @@ updateFromLS();
 
 /* Add new values in the array and stock to localStorage */
 btnSaved.addEventListener('click', () => {
-    console.log(i)
+    //console.log(i)
     projects.push({
         'projectName' : nProject.value, 
         'projectLink' : lProject.value
@@ -93,5 +93,6 @@ window.addEventListener('click', (event) => {
                 localStorage.removeItem(`projects${rmId}`);
             }
         }
+        i--;
     }
 })
