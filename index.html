@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/assets/css/style.css">
+    <title>Exercice Local Storage</title>
+</head>
+<body>
+    <h1>Exercice sur le localStorage</h1>
+    
+    <div class="container">
+        <input type="text" id="nProject" name="name" placeholder="Nom du projet"> 
+        <input type="url" id="lProject" name="link" placeholder="Lien du projet">  
+
+        <button id="btnSaved" type="button" class="button">Sauvegarder</button>
+    </div>
+
+    <div id="displayText" class="container2">
+        <h2 name="display">Affichage des données sauvegardées</h2>    
+        <div class="displayProject">
+            <div id="projectsName">
+                <h4>Nom du projet</h4>
+            </div>
+            <div id="projectsLink">
+                <h4>Lien du projet</h4>
+            </div>
+        </div> 
+    </div>
+
+    <div>
+        <button id="rstBtn" type="button" class="button">Reset</button>
+    </div>
+
+    <script src="public/assets/js/script.js"></script>
+</body>
+</html>

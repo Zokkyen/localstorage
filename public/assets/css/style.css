@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    
+    background-color:cadetblue;
+    /* background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,254,0,1) 48%, rgba(255,0,200,1) 100%); */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#nProject, #lProject {
+    text-align: center;
+    width: 100%;
+}
+
+.button {
+    margin-top: 15px;
+    width: 100px;
+    border-radius: 5px;  
+    background-color: black;
+    color: white;
+}
+
+#nProject {
+    margin-bottom: 10px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: white;
+
+}
+
+h2 {
+    margin: 0;
+}
+
+.displayProject {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#projectsName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 20%;
+    /* white-space: nowrap; */
+    border-right: 1px solid black;
+}
+
+#projectsLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 80%;
+}
+
+h4 {
+    margin: 0;
+    width: 100%;
+
+    background-color: rgb(65, 150, 153);
+    /* background: rgb(255,0,226);
+    background: linear-gradient(90deg, rgba(255,0,226,1) 0%, rgba(0,255,44,1) 48%, rgba(0,251,255,1) 100%); */
+}
+
+.Pad {
+    padding: 2px;
+    margin: 0;
+    border-top: 1px solid black;
+    width: 99.5%;
+}
+
+.trash {
+    position: absolute;
+    right: 21vw;
+    width: 15px;
+    margin-top: 2px;
+}
