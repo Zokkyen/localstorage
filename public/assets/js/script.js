@@ -81,16 +81,8 @@ window.addEventListener('click', (event) => {
         /* Remove in the array */
         projects.splice(rmId, 1);
 
-
-        //console.log(projects)
-
-        /* Shit the next value to always get a suite of number */
-
-        console.log(storage)
-
-        
+        /* Shift the next value to always get a suite of number */
         while(localStorage.getItem(`projects${rmId+1}`) !== null){
-            
             let storage = JSON.parse(localStorage.getItem(`projects${rmId+1}`));
             if(storage != null){
                 localStorage.removeItem(`projects${rmId+1}`);
@@ -101,8 +93,5 @@ window.addEventListener('click', (event) => {
                 localStorage.removeItem(`projects${rmId}`);
             }
         }
-
-        
-
     }
 })
